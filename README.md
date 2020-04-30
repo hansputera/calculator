@@ -1,5 +1,7 @@
 # Calculator
 -------------
-```css
+```diff
 Gua buat ini ketika gabut aja.
+Give me ⭐ Ya!!
 ```
+
