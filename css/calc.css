@@ -1,3 +1,8 @@
+/* 
+CSS KUSTOMISASI
+- FLOCKNET#7343
+*/
+
 
 body {
 margin: 0;
@@ -10,4 +15,18 @@ color:green;
 
 button:hover {
 font-color: #0000;
+}
+
+h1 {
+font-color:black;
+font-family: sans-serif;
+}
+
+h1:hover {
+font-color: 1111;
+}
+
+hr {
+border-top: 3px solid black;
+width: 300px;
 }
