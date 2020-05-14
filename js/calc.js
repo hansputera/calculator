@@ -1,13 +1,10 @@
 function hitung() {
-const data = document.getelementById('hitung').value;
+const data = document.getElementById('hitung').value;
 if (!data.includes('/') || !data.includes('*') || !data.includes('+') || !data.includes('-')) {
-alert(`Angka yang ingin di eksekusi tidak ada tanda [+,-,*,/] !`);
-return true;
+data = 'Error';
 } else {
 let result = eval(data);
-alert(`Hasil Eksekusi: ${result}`);
-data = '';
-return true;
+data = result;
 };
 };
 
